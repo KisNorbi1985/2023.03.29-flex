@@ -4,5 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/*Betűtípus fallback*/
+    background: #eea;
+    padding: 5px;
+}
+.container{
+    border: 5px solid deeppink;
+}
+.container > div{/*a container osztályon belüli közvetlen div*/
+    background: #fff;
+    border: 1px solid cadetblue;
 }

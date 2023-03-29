@@ -21,11 +21,14 @@ body{
 .container > div:first-child{
     background: #87bfa5;
 }
-.container > div:last-child{
+/*.container > div:last-child{
     background: cornflowerblue;
+}*/
+.container > div:nth-child(2){
+    background: goldenrod;
 }
 .container > div:nth-child(3){
-    background: goldenrod;
+    background: greenyellow;
 /*
 nth-child(2n) - páros
 nth-child(2n-1) - páratlan
